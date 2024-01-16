@@ -39,7 +39,8 @@ then
 	cat /flag
 	cat <<END
 
-Now, copy your flag out of the Desktop! This takes some work. The steps:
+Now, copy your flag out of the Desktop! This takes some work. 
+Here are the steps:
 
 1. Select the flag with your mouse.
 2. Right click, Copy the flag.
