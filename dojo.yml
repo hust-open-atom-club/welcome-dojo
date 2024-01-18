@@ -3,7 +3,7 @@ id: welcome
 name: Using The Dojo
 
 description: |
-  欢迎来到dojo!
+  欢迎来到道馆!
   在这里，你将通过一系列易于上手的挑战学习如何使用道馆环境！
   祝你好运！
 
@@ -16,7 +16,7 @@ modules:
 
   - id: welcome
     name: The Welcome Module
-    description: 让我们来学习如何使用dojo!
+    description: 让我们来学习如何使用道馆!
 
     challenges:
 
@@ -25,8 +25,8 @@ modules:
         description: |
 
           欢迎来到道馆！
-          这个平台使用“flags”来跟踪你的进展。
-          Flags是在你解决挑战时赋予你的加密令牌。
+          这个平台使用“flag”来跟踪你的进展。
+          flag 是在你解决挑战时赋予你的加密令牌。
           挑战本身存放在/challenge目录中。
 
           你可以以三种方式与挑战互动：
@@ -38,7 +38,7 @@ modules:
           请使用“开始”按钮启动此挑战，等待确认它已启动，然后在导航栏中点击“工作空间”选项卡！
           一旦VSCode加载完成，请启动终端（按Control-Shift-Backtick或单击VSCode左侧面板的☰按钮，选择终端菜单，然后单击新建终端），然后运行挑战程序！
           在这种情况下，挑战程序是/challenge/solve。
-          只需在VSCode中运行它，你就会得到Flag!
+          只需在VSCode中运行它，你就会得到 flag !
           一旦你看到它，请复制粘贴到下面的提交框中并提交！
 
       - id: desktop
@@ -57,12 +57,12 @@ modules:
       - id: flag
         name: The Flag File
         description: |
-          到目前为止，挑战直接提供了flags给你。
-          现在，你将了解到flag实际上存储在 `/flag` 文件中。
+          到目前为止，挑战直接提供了 flag 给你。
+          现在，你将了解到 flag 实际上存储在 `/flag` 文件中。
           `/flag` 文件只对挑战有读取权限，因为挑战以 `root` 用户身份运行。
-          由于你是道馆中的 `hacker` 用户，获取flag的唯一方式就是解决挑战。
+          由于你是道馆中的 `hacker` 用户，获取 flag 的唯一方式就是解决挑战。
 
-          此挑战的 `/challenge/solve` 程序将使flag对所有人可读，但不会直接显示给你。
+          此挑战的 `/challenge/solve` 程序将使 flag 所有人可读，但不会直接显示给你。
           在运行 `/challenge/solve` 后，你需要自己读取 `/flag`。
 
       - id: practice
@@ -73,7 +73,7 @@ modules:
           你还可以选择 `Practice`！
           这将授予你在挑战容器中使用 `sudo` 的管理权限，使你能够更好地调试解决方案并以其他方式尝试挑战。
 
-          除了这个挑战，你从不需要练习模式来解决挑战，因为它旨在让你了解练习模式。
+          除了这个挑战，你不会需要练习模式来解决挑战，因为这个挑战旨在让你了解练习模式。
           此挑战有一个 `/challenge/secret` 文件，只有root用户能读取，但在练习模式和正常模式之间不会更改。
           要解决这个挑战：
           - 在练习模式下启动挑战。
