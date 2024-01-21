@@ -38,7 +38,7 @@ modules:
           请使用“开始”按钮启动此挑战，等待确认它已启动，然后在导航栏中点击“工作空间”选项卡！
           一旦VSCode加载完成，请启动终端（按Control-Shift-Backtick或单击VSCode左侧面板的☰按钮，选择终端菜单，然后单击新建终端），然后运行挑战程序！
           在这种情况下，挑战程序是/challenge/solve。
-          只需在VSCode中运行它，你就会得到 flag !
+          只需在VSCode中运行它，你就会得到 flag!
           一旦你看到它，请复制粘贴到下面的提交框中并提交！
 
       - id: desktop
@@ -62,13 +62,13 @@ modules:
           `/flag` 文件只对挑战有读取权限，因为挑战以 `root` 用户身份运行。
           由于你是道馆中的 `hacker` 用户，获取 flag 的唯一方式就是解决挑战。
 
-          此挑战的 `/challenge/solve` 程序将使 flag 所有人可读，但不会直接显示给你。
+          此挑战的 `/challenge/solve` 程序将使 flag 对所有人可读，但不会直接显示给你。
           在运行 `/challenge/solve` 后，你需要自己读取 `/flag`。
 
       - id: practice
         name: Using Practice Mode
         description: |
-          你可以以两种模式启动挑战，使用下面的按钮！
+          使用下面的按钮，你可以以两种模式启动挑战！
           到目前为止，你一直在使用 `Start`，它启动挑战，以便你尝试真实解决它。
           你还可以选择 `Practice`！
           这将授予你在挑战容器中使用 `sudo` 的管理权限，使你能够更好地调试解决方案并以其他方式尝试挑战。
@@ -84,7 +84,7 @@ modules:
       - id: persist-1
         name: Persistent Home Directories - One
         description: |
-          在道馆中，你的家目录在挑战之间是持久的。
+          在道馆中，你的家目录在挑战之间是保持不变的，可以共享的。
           这意味着你可以在一个模块的多个挑战中使用它来积累笔记、参考旧解决方案，或者重新运行在练习模式中完善的解决方案来应对非练习模式中的挑战。
 
           此挑战和下一个挑战将通过让你在你的家目录中编写一个文件来加深这一点。
