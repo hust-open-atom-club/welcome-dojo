@@ -1,13 +1,13 @@
 id: welcome
 
-name: Using The Dojo
+name: Dojo 使用教学
 
 description: |
   欢迎来到道场!
   在这里，你将通过一系列易于上手的挑战学习如何使用道场环境！
   祝你好运！
 
-type: topic
+type: welcome
 
 award:
   emoji: 🥋
