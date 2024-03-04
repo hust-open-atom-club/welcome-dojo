@@ -3,8 +3,8 @@ id: welcome
 name: Dojo 使用教学
 
 description: |
-  欢迎来到道场!
-  在这里，你将通过一系列易于上手的挑战学习如何使用道场环境！
+  欢迎来到道馆!
+  在这里，你将通过一系列易于上手的挑战学习如何使用道馆环境！
   祝你好运！
 
 type: welcome
@@ -16,7 +16,7 @@ modules:
 
   - id: welcome
     name: The Welcome Module
-    description: 让我们来学习如何使用道场!
+    description: 让我们来学习如何使用道馆!
 
     challenges:
 
@@ -24,14 +24,14 @@ modules:
         name: Using the VSCode Workspace
         description: |
 
-          欢迎来到道场！
+          欢迎来到道馆！
           这个平台使用“flag”来跟踪你的进展。
           flag 是在你解决挑战时赋予你的加密令牌。
           挑战本身存放在/challenge目录中。
 
           你可以以三种方式与挑战互动：
-          - 你可以使用道场工作空间，这是道场内运行的VSCode版本
-          - 你可以使用道场桌面，这是一个在道场内运行的完整Linux GUI桌面
+          - 你可以使用道馆工作空间，这是道馆内运行的VSCode版本
+          - 你可以使用道馆桌面，这是一个在道馆内运行的完整Linux GUI桌面
           - 你可以设置你的SSH客户端并进行SSH登录
 
           在这个模块中，我们将介绍前两种方式，从工作空间开始！
@@ -60,7 +60,7 @@ modules:
           到目前为止，挑战直接提供了 flag 给你。
           现在，你将了解到 flag 实际上存储在 `/flag` 文件中。
           `/flag` 文件只对挑战有读取权限，因为挑战以 `root` 用户身份运行。
-          由于你是道场中的 `hacker` 用户，获取 flag 的唯一方式就是解决挑战。
+          由于你是道馆中的 `hacker` 用户，获取 flag 的唯一方式就是解决挑战。
 
           此挑战的 `/challenge/solve` 程序将使 flag 对所有人可读，但不会直接显示给你。
           在运行 `/challenge/solve` 后，你需要自己读取 `/flag`。
@@ -84,7 +84,7 @@ modules:
       - id: persist-1
         name: Persistent Home Directories - One
         description: |
-          在道场中，你的家目录在挑战之间是保持不变的，可以共享的。
+          在道馆中，你的家目录在挑战之间是保持不变的，可以共享的。
           这意味着你可以在一个模块的多个挑战中使用它来积累笔记、参考旧解决方案，或者重新运行在练习模式中完善的解决方案来应对非练习模式中的挑战。
 
           此挑战和下一个挑战将通过让你在你的家目录中编写一个文件来加深这一点。
