@@ -1,2 +1,3 @@
 # welcome-dojo
-Welcome Dojo to introduce people pwn.hust.college's features.
+
+欢迎同学们来到真新镇的大木博士研究所，在这里你将获得神奇宝贝球、神奇宝贝图鉴等各种工具。神奇宝贝道馆挑战从这里开始！
