@@ -1,37 +1,35 @@
-name: Using the Dojo
+name: 平台食用指南
 challenges:
 
   - id: vscode
-    name: Using the VSCode Workspace
+    name: 线上 VSCode 工作空间
   - id: desktop
-    name: Using the GUI Desktop
+    name: 图形界面
   - id: desktop-paste
-    name: Pasting into the Desktop
+    name: 桌面拷贝
   - id: flag
-    name: The Flag File
+    name: flag 文件
   - id: practice
-    name: Using Practice Mode
+    name: 使用练习模式
   - id: persist-1
-    name: Persistent Home Directories - One
+    name: 持久家目录（一）
   - id: persist-2
-    name: Persistent Home Directories - Two
+    name: 持久家目录（二）
 
 resources:
-  - name: "Getting Started"
+  - name: "pwn.hust.college 平台使用"
     type: lecture
-    video: DJO1A2neZ6Y
-  - name: "Dojo Functionality That's Not Covered Here"
+    video: 829819163
+    playlist: BV1bu4y197Zj
+  - name: "未包含的功能介绍"
     type: markdown
     content: |
-      本模块尚未涉及的两个dojo概念是通过ssh和VM进行连接。
+      本模块尚未涉及的两个功能是通过 SSH 和 VM 脚本进行连接。
 
-      **通过SSH连接**
-      为了通过ssh链接到你的挑战实例，你必须添加一个公共ssh密钥到 `设置` > `SSH密钥`。
-      您可以通过在(对unix友好的)主机的终端上运行 `ssh-keygen -f key -N ''` 来快速生成ssh密钥。
-      这将生成文件 `key` 和 `key.Pub` ，分别是您的私钥和公钥。
-      一旦将ssh密钥链接到您的帐户，您就可以连接到dojo主机。
-      例如，如果这个页面的URL栏显示 `https://EXAMPLE.COM/welcome/welcome` ，你可以运行 `ssh -i key hacker@EXAMPLE.COM` 连接到你的挑战实例。
-      
-      **VM**
+      **通过 SSH 连接**
+      为了通过 SSH 连接到你的挑战实例，你必须添加一个公共 SSH 密钥到 `设置` > `SSH密钥`，
+      然后通过 SSH 秘钥链接到挑战实例。
+
+      **通过 VM 链接**
       对于后面的一些(比如以内核为中心的)挑战，您需要在虚拟机中解决这个挑战。
       您可以使用 `vm` 命令与虚拟机交互。
