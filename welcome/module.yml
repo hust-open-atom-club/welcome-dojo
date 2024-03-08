@@ -19,8 +19,8 @@ challenges:
 resources:
   - name: "pwn.hust.college 平台使用"
     type: lecture
-    video: 829819163
-    playlist: BV1bu4y197Zj
+    video: "829819163"
+    playlist: "BV1bu4y197Zj"
   - name: "未包含的功能介绍"
     type: markdown
     content: |
