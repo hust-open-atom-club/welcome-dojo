@@ -10,7 +10,7 @@ description: |
 type: welcome
 
 award:
-  emoji: 🥋
+  belt: Pikachu
 
 modules:
 
@@ -97,6 +97,6 @@ modules:
           启动此挑战并按照其说明操作！
           
     resources:
-      - name: "Getting Started"
+      - name: "pwn.hust.college 平台使用"
         type: lecture
-        video: DJO1A2neZ6Y
+        video: 829819163
