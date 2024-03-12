@@ -1,6 +1,6 @@
 本挑战关卡将教你如何使用 Visual Studio Code 工作空间。
-请使用“开始”按钮启动本挑战关卡，等待确认它已启动，然后在导航栏中点击“工作空间”选项卡！
-一旦 VSCode 加载完成，请启动终端（按`Control-Shift-Backtick`或单击VSCode左侧面板的`☰`按钮，选择终端菜单，然后单击新建终端），然后运行挑战程序！
+请使用 “Start” 按钮启动本挑战关卡，等待确认它已启动，然后在导航栏中点击“工作空间”选项卡！
+一旦 VSCode 加载完成，请启动终端（按 `Control-Shift-Backtick` 或单击 VSCode 左侧面板的 `☰` 按钮，选择 `Temrinal`，然后单击 `New Terminal`），然后运行挑战程序！
 
 本次挑战，像所有其他挑战一样，位于 `/challenge` 目录中。
 在这种情况下，挑战程序是 `/challenge/solve`。
