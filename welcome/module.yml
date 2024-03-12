@@ -2,9 +2,9 @@ name: 平台食用指南
 challenges:
 
   - id: vscode
-    name: 线上 VSCode 工作空间
+    name: 工作空间
   - id: desktop
-    name: 图形界面
+    name: 桌面
   - id: desktop-paste
     name: 桌面拷贝
   - id: flag
@@ -17,7 +17,7 @@ challenges:
     name: 持久家目录（二）
 
 resources:
-  - name: "pwn.hust.college 平台使用"
+  - name: "pwn.hust.college 入门教学"
     type: lecture
     video: "829819163"
     playlist: "BV1bu4y197Zj"
@@ -27,9 +27,9 @@ resources:
       本模块尚未涉及的两个功能是通过 SSH 和 VM 脚本进行连接。
 
       **通过 SSH 连接**
-      为了通过 SSH 连接到你的挑战实例，你必须添加一个公共 SSH 密钥到 `设置` > `SSH密钥`，
-      然后通过 SSH 秘钥链接到挑战实例。
+      为了通过 `SSH` 连接到你的挑战实例，你必须添加一个公共 `SSH` 密钥到 `设置` > `SSH密钥`，
+      然后通过 `SSH` 秘钥链接到挑战实例。
 
-      **通过 VM 链接**
+      **通过 VM 连接**
       对于后面的一些(比如以内核为中心的)挑战，您需要在虚拟机中解决这个挑战。
       您可以使用 `vm` 命令与虚拟机交互。
