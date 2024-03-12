@@ -31,14 +31,7 @@ cat <<END | while read LINE; do echo "$LINE"; sleep 0.1; done
 ⠀⢳⡀⠀⠙⠀⠀⠀⠀⠀⠘⣆⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⣰⠃⠀⠀⠀⠀⢀⡄⠀⢠⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⢳⡀⣰⣀⣀⣀⠀⠀⠀⠘⣦⣀⠀⠀⠀⡇⠀⠀⠀⢀⡴⠃⠀⠀⠀⠀⠀⢸⡇⢠⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠉⠉⠀⠀⠈⠉⠉⠉⠙⠻⠿⠾⠾⠻⠓⢦⠦⡶⡶⠿⠛⠛⠓⠒⠒⠚⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⢫⡀⠀⠙⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀WELCOME⠀⠀⠀⠀⠀⠀⠀⢸⠀⢀⡤⠚⠉⡟⠋⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠉⠒⠤⣤⠤⣼⠁⠀⠀⠀⠀⠀⠀⠀TO   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠋⢧⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⣀⠤⠃⠀⣼⠀⠀⠀⠀⠀⠀⠀⠀THE  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡇⠀⢣⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠰⣿⣉⣀⠤⠤⠤⠽⠀⠀⠀⠀⠀⠀⠀⠀DOJO⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣏⢰⣀⣣⡀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠒⠛⠛⠋⠀⠀⠀⠀
-You should be running this challenge through VSCode Workspace...
-Let's check!
-你应该使用 VSCode 工作空间来运行该挑战，请检查一下！
+欢迎来到 pwn.hust.college，请确认使用 VSCode 工作空间运行该挑战！
 END
 
 echo -n "检查中"
@@ -51,8 +44,8 @@ echo -n $'\r'
 
 if [ "$TERM_PROGRAM" == "vscode" ]
 then
-	echo "通过！你确实在VSCode工作空间内运行！"
-	echo -n "你的 flag 为： "
+	echo "通过！你确实在 VSCode 工作空间内运行！"
+	echo -n "你的 flag 是： "
 	cat /flag
 else
 	echo "请确认在 VSCode 工作空间运行挑战关卡，而不是通过桌面或 SSH！"
