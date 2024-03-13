@@ -40,7 +40,7 @@ do
 done
 echo -n $'\r'
 
-if [ "$TERM_PROGRAM" != "vscode" ] && [ "$TERM" == "xterm-256color" ]
+if [ "$TERM_PROGRAM" != "vscode" ] && [ "$TERM" == "xterm*" ]
 then
 	echo "通过！你确实在桌面环境中运行挑战关卡！"
 	echo -n "你的 flag 是："
