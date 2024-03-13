@@ -39,7 +39,7 @@ do
 done
 echo -n $'\r'
 
-if [ "$TERM_PROGRAM" != "vscode" ] && [ "$TERM" == "xterm*" ]
+if [ "$TERM_PROGRAM" != "vscode" ] && [ "$TERM" == "xterm-256color" ]
 then
 	echo "你确实在桌面环境中运行挑战关卡！"
 	cat <<END
