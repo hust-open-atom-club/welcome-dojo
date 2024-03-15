@@ -15,6 +15,8 @@ challenges:
     name: 持久家目录（一）
   - id: persist-2
     name: 持久家目录（二）
+  - id: ssh
+    name: SSH 连接
 
 resources:
   - name: "pwn.hust.college 入门教学"
