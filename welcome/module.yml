@@ -3,7 +3,7 @@ challenges:
 
   - id: vscode
     name: 工作空间
-    level: "1"
+    level: 1
     
   - id: desktop
     name: 桌面
