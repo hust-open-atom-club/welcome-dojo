@@ -42,7 +42,7 @@ do
 done
 echo -n $'\r'
 
-if [ -n "$TERM" ] || [ "$TERM" = "xtrem" ]
+if [ -n "$TERM" ] && [ "$TERM" = "xtrem" ]
 then
     echo "通过！ 你确实在SSH内运行挑战关卡！"
     echo -n "你的 flag 是："
