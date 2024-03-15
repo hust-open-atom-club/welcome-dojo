@@ -7,31 +7,31 @@ challenges:
     
   - id: desktop
     name: 桌面
-    level: 1
+    level: "1"
     
   - id: desktop-paste
     name: 桌面拷贝
-    level: 1
+    level: "1"
     
   - id: flag
     name: flag 文件
-    level: 1
+    level: "1"
     
   - id: practice
     name: 使用练习模式
-    level: 1
+    level: "1"
     
   - id: persist-1
     name: 持久家目录（一）
-    level: 1
+    level: "1"
     
   - id: persist-2
     name: 持久家目录（二）
-    level: 1
+    level: "1"
     
   - id: ssh
     name: SSH 连接
-    level: 2
+    level: "2"
 
 resources:
   - name: "pwn.hust.college 入门教学"
