@@ -1,6 +1,6 @@
 #!/opt/pwn.college/bash
 
-# art from https://ascii.co.uk/art/karate
+# art from https://emojicombos.com/pokemon-ascii-art
 
 cat <<"END"
 ⠀⠀⠀⠀⠠⠉⠑⠄⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -41,8 +41,7 @@ END
 if [ ! -f /home/hacker/leap/secret ] || [ ! -f /challenge/secret ]
 then
 	cat <<END
-It looks like you did not properly do the previous challenger (persistence
-part 1). Please go back and redo it!
+看来你并未完成之前的关卡挑战 （persist-1），请完成 persist-1 之后重做当前关卡!
 END
 	exit
 fi
@@ -53,16 +52,15 @@ read CORRECT </challenge/secret
 if [ "$TOKEN" == "$CORRECT" ]
 then
 	cat <<END
-Congratulations! The file that you created in the last challenge is still
-present in your home directory! Please keep in mind that, though the contents
-of /home/hacker persist, other areas (such as /tmp, /challenge, and so on) do not.
+恭喜你!你在上次挑战中创建的文件仍然在你的家目录中!请记住，虽然 `/home/hacker` 中的内容是
+持久存在的，但其他区域（如 `/tmp`、`/challenge` 等)不会保留。
 
-Anyways, here is your flag:
+请接收你的 /flag：
 END
 	cat /flag
 else
 	cat <<END
-Somehow the contents of /home/hacker/leap/secret are not correct... Please
-go back and redo the first persistence challenge to create the file.
+/home/hacker/leap/secret 的内容是不正确的，请
+返回并重做挑战关卡 persist-1。
 END
 fi
