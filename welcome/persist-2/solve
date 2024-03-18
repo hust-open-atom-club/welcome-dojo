@@ -52,8 +52,8 @@ read CORRECT </challenge/secret
 if [ "$TOKEN" == "$CORRECT" ]
 then
 	cat <<END
-恭喜你!你在上次挑战中创建的文件仍然在你的家目录中!请记住，虽然 `/home/hacker` 中的内容是
-持久存在的，但其他区域（如 `/tmp`、`/challenge` 等)不会保留。
+恭喜你!你在上次挑战中创建的文件仍然在你的家目录中！请记住，虽然 /home/hacker 中的内容是
+持久存在的，但其他区域（如 /tmp、/challenge 等)不会保留。
 
 请接收你的 /flag：
 END
