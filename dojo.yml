@@ -5,8 +5,8 @@ name: pwn.hust.college 入门教学
 type: welcome
 
 award:
-  belt: Pikachu
+  belt: PokeBall
 
 modules:
   - id: welcome
-    icon: Chansey
+    icon: Pikachu
