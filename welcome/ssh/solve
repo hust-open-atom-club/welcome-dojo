@@ -50,15 +50,11 @@ then
 else
 	cat <<END
 
-下面我们来学习如何从宿主机系统（如另外一个浏览器选项卡）中拷贝数据到桌面环境中。具体步骤如下：
-
-1.首先在自己的电脑`Terminal`中输入`ssh-keygen -f ./key -N ''`,你会获得`key` 和 `key.pub` 一对儿公私钥。
-2.执行`cat key.pub` 或者`notepad key.pub` 将公钥复制出来。
-3.在平台中，点击右上角设置，点击左边`SSH公钥` 然后将复制的公钥填写进去，点击`Update`,保存自己的公钥。
-4.在自己电脑的 `Terminal` 中 输入`ssh -i ./key -p 22222 hacker@pwn.hust.college`。即可连接到题目中，然后运行挑战程序！
-现在，从挑战关卡说明中复制秘密令牌，然后利用上述步骤粘贴到桌面终端程序中！
+1. 在终端程序中输入 ssh-keygen -f ~/.ssh/key -N '' 生成 key 和 key.pub 公私钥对；
+2. 执行 cat key.pub 将公钥内容复制出来；
+3. 点击导航栏右侧的设置选项，点击左边 SSH 公钥，将复制的公钥填写进去，点击 Update 保存自己的公钥；
+4. 输入 ssh -i ~/.ssh/key -p 22223 hacker@pwn.hust.college，即可连接到挑战关卡容器，然后运行挑战程序；
 
 END
-
 	echo "请确认在 SSH 运行挑战关卡，而不是桌面或 VSCode工作空间 ！"
 fi
