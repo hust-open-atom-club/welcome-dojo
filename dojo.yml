@@ -6,6 +6,7 @@ type: welcome
 
 award:
   belt: PokeBall
+  emoji: PokeBall
 
 modules:
   - id: welcome
