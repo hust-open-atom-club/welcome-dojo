@@ -42,8 +42,8 @@ if [ ! -f /home/hacker/leap/secret ]
 then
 	cat <<END
 
-请在你的家目录下创建一个 “leap” 目录，并在其中复制 `/challenge/secret` 文件!
-生成文件的路径应为 `/home/hacker/leap/secret`，其内容与 `/challenge/secret` 相同。
+请在你的家目录下创建一个 leap 目录，并在其中复制 /challenge/secret 文件!
+生成文件的路径应为 /home/hacker/leap/secret，其内容与 /challenge/secret 相同。
 
 完成上述操作后，即可重新运行本脚本获取 /flag。
 
