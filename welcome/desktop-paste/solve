@@ -59,11 +59,12 @@ END
 	read CORRECT </challenge/.secret
 	if [ "$TOKEN" == "$CORRECT" ]
 	then
-		echo -n "CORRECT! Your flag: "
+		echo -n "正确！你的 flag 是： "
 		cat /flag
+		echo "请按照上一挑战关卡中的步骤将 flag 拷贝到宿主机，并完成 flag 提交。"
 	else
-		echo "Incorrect. Please try again!"
+		echo "错误！请重试！"
 	fi
 else
-	echo "NOPE! Run this challenge from the Desktop (rather than VSCode or SSH)!"
+	echo "请确认在桌面环境运行挑战关卡，而不是 VSCode 或 SSH！"
 fi
