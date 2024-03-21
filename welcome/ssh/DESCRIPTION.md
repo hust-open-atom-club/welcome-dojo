@@ -10,11 +10,13 @@
 在这种情况下，挑战程序是 `/challenge/solve`。
 只需在 `SSH` 中运行它，你就会得到 `flag`，将其复制粘贴到 `flag` 提交框中然后提交！
 
-当然，你也可以使用 SSH config 连接挑战关卡容器，推荐使用如下配置。
+当然，你也可以使用 [SSH config](https://linux.die.net/man/5/ssh_config) 连接挑战关卡容器。
+推荐将下列配置加入到 `~/.ssh/config` 文件中，使用 `ssh challenge` 进行连接。
 
 ```
 Host challenge
   HostName pwn.hust.college
   User hacker
+  Port 22223
   IdentityFile ~/.ssh/key
 ```
