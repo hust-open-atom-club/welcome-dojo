@@ -4,7 +4,7 @@
 - 在终端程序中输入 `ssh-keygen -f ~/.ssh/key -N ''`或用其他软件生成 `key` 和 `key.pub` 公私钥对；
 - 执行 `cat key.pub` 将公钥内容复制出来；
 - 点击导航栏右侧的**设置**选项，点击左边 `SSH` 公钥，将复制的公钥内容填写进去，点击 `Update` 保存自己的公钥；
-- 输入 `ssh -i ~/.ssh/key -p 22223 hacker@pwn.cse.hust.edu.cn`，即可连接到挑战关卡容器，然后运行挑战程序；
+- 输入 `ssh -i ~/.ssh/key -p 22 hacker@pwn.cse.hust.edu.cn`，即可连接到挑战关卡容器，然后运行挑战程序；
 
 本次挑战，像所有其他挑战一样，位于 `/challenge` 目录中。
 在这种情况下，挑战程序是 `/challenge/solve`。
@@ -17,6 +17,6 @@
 Host challenge
   HostName pwn.cse.hust.edu.cn
   User hacker
-  Port 22223
+  Port 22
   IdentityFile ~/.ssh/key
 ```
