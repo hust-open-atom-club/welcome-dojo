@@ -29,9 +29,9 @@ challenges:
     name: 持久家目录（二）
     level: 1
     
-  # - id: ssh
-  #   name: SSH 连接
-  #   level: 2
+  - id: ssh
+    name: SSH 连接
+    level: 2
 
 resources:
   - name: "pwn.hust.college 入门教学"
