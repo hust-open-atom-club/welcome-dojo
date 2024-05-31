@@ -33,6 +33,10 @@ challenges:
     name: SSH 连接
     level: 2
 
+  - id: kernel-exploitation
+    name: 内核利用小白入门
+    level: 2
+
 resources:
   - name: "pwn.hust.college 入门教学"
     type: lecture
