@@ -50,7 +50,7 @@ if grep -q "Welcome to kernel challenge machoke" /run/vm/vm.log && grep -q "mach
 then
 	echo "通过！你的 QEMU 虚拟机已经启动！"
 	echo -n "你的 flag 是："
-	vm exec head /proc/machoke | grep -o "pwn.college{.*}"
+	vm exec head /proc/machoke
 else
 	echo "请确认在 QEMU 虚拟机启动后再获取 flag ！"
 fi
