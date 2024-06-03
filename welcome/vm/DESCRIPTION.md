@@ -4,4 +4,4 @@
 - 随后输入 `vm connect` 连接启动的 QEMU 虚拟机；
 - 进入 QEMU 虚拟机后，查看 `/proc/machoke` 文件即可获得 `flag`；
 
-本次挑战，像所有其他挑战一样，位于 `/challenge` 目录中，挑战程序是 `/challenge/solve`，其中本脚本使用 exec 功能在 QEMU 虚拟机中读取 flag。
+本次挑战，像所有其他挑战一样，位于 `/challenge` 目录中，挑战程序是 `/challenge/solve`。
