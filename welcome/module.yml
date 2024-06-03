@@ -33,8 +33,8 @@ challenges:
     name: SSH 连接
     level: 2
 
-  - id: kernel-exploitation
-    name: 内核利用小白入门
+  - id: vm
+    name: VM 连接
     level: 2
 
 resources:
@@ -42,12 +42,3 @@ resources:
     type: lecture
     video: "829819163"
     playlist: "BV1bu4y197Zj"
-  - name: "未包含的功能介绍"
-    type: markdown
-    content: |
-      本模块尚未涉及的功能是通过 VM 脚本连接 QEMU 虚拟机。
-
-      **通过 VM 连接**
-      
-      对于后面的一些(比如以内核为中心的)挑战，您需要在虚拟机中解决这个挑战。
-      您可以使用 `vm` 命令与虚拟机交互。
