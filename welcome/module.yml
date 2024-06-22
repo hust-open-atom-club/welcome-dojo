@@ -33,10 +33,6 @@ challenges:
     name: SSH 连接
     level: 2
 
-  - id: vm
-    name: VM 连接
-    level: 2
-
 resources:
   - name: "pwn.hust.college 入门教学"
     type: lecture
