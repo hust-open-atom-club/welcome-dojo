@@ -9,3 +9,13 @@
 本次挑战，像所有其他挑战一样，位于 `/challenge` 目录中。
 在这种情况下，挑战程序是 `/challenge/solve`。
 只需在 `SSH` 中运行它，你就会得到 `flag`，将其复制粘贴到 `flag` 提交框中然后提交！
+
+当然，如果你知道 SSH config，也可以使用 [SSH config](https://linux.die.net/man/5/ssh_config) 连接挑战关卡容器。
+推荐将下列配置加入到 `~/.ssh/config` 文件中（注：此路径为 Linux 系统路径，Windows需要进行相应修改），使用 `ssh challenge` 进行连接。
+
+```
+Host challenge
+  HostName pwn.cse.hust.edu.cn
+  User hacker
+  IdentityFile 指定文件路径
+```
