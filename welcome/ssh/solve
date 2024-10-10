@@ -54,10 +54,10 @@ then
 else
 	cat <<END
 
-1. 在终端程序中输入 ssh-keygen -f ~/.ssh/key -N '' 生成 key 和 key.pub 公私钥对；
-2. 执行 cat key.pub 将公钥内容复制出来；
+1. 在本地终端程序中输入 ssh-keygen -f 指定文件路径 -N "" 生成 key 和 key.pub 公私钥对，或用其他软件生成和公私钥对；
+2. 将公钥 key.pub 中内容复制出来；
 3. 点击导航栏右侧的设置选项，点击左边 SSH 公钥，将复制的公钥填写进去，点击 Update 保存自己的公钥；
-4. 输入 ssh -i ~/.ssh/key -p 22223 hacker@pwn.hust.college，即可连接到挑战关卡容器，然后运行挑战程序；
+4. 在本地终端程序中输入 ssh -i 你的私钥地址 hacker@pwn.cse.hust.edu.cn，即可连接到挑战关卡容器，然后运行挑战程序；
 
 END
 	echo "请确认在 SSH 运行挑战关卡，而不是桌面或 VSCode 工作空间 ！"
