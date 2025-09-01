@@ -11,3 +11,5 @@ award:
 modules:
   - id: welcome
     icon: 0025_Pikachu
+  - id: kook
+    icon: Kook
